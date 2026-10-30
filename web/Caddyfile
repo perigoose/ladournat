@@ -1,4 +1,4 @@
-:80 {
+{$SITE_ADDRESS} {
 	root * /srv
 	file_server
 	encode zstd gzip
