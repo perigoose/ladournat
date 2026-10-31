@@ -1,5 +1,6 @@
 services:
   web:
+    image: ghcr.io/perigoose/ladournat-web:latest
     build: ./web
     ports:
       - "80:80"
