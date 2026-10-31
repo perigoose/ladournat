@@ -1,4 +1,6 @@
 {$SITE_ADDRESS} {
+	@www host www.ladournat.fr
+	redir @www https://ladournat.fr{uri} permanent
 	root * /srv
 	file_server
 	encode zstd gzip
