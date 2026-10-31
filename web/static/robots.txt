@@ -6,3 +6,6 @@ Allow: /
 
 User-agent: Bingbot
 Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
